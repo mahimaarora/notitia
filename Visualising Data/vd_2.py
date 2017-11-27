@@ -14,12 +14,15 @@ if __name__ == '__main__':
     for i in range(len(years)):
         data.append(randint(1, 10))
 
-    x = [j + 0.1 for i, j in enumerate(years)]
+    x = [i for i, j in enumerate(years)]
+    #x = [j + 0.1 for i, j in enumerate(years)]
 
-    plt.bar(years, data)
+    plt.bar(x, data)
     plt.ylabel('Random Data')
     plt.xlabel('Years')
     plt.title('Data')
+
+    plt.xticks([i for i, j in enumerate(years)], years)
     plt.show()
 
 
