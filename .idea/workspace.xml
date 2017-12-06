@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e47333cf-3450-4f5c-b836-0d7dbfa40b76" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Practise Problems/Set 1/complex_heuristic.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Practise Problems/Set 1/custom_heuristic.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Practise Problems/Set 1/simple_heuristic.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Practise Problems/titanic_data.csv" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Practise Problems/train.csv" afterPath="$PROJECT_DIR$/Practise Problems/Set 1/train.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,11 +24,14 @@
     <SUITE FILE_PATH="coverage/notitia$gradient.coverage" NAME="gradient Coverage Results" MODIFIED="1512331148294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gradient Descent" />
     <SUITE FILE_PATH="coverage/notitia$vectors.coverage" NAME="vectors Coverage Results" MODIFIED="1511863132765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Linear Algebra" />
     <SUITE FILE_PATH="coverage/notitia$matrices.coverage" NAME="matrices Coverage Results" MODIFIED="1511863953435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Linear Algebra" />
+    <SUITE FILE_PATH="coverage/notitia$custom_heuristic.coverage" NAME="custom_heuristic Coverage Results" MODIFIED="1512580107987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practise Problems/Set 1" />
     <SUITE FILE_PATH="coverage/notitia$centralTendencies.coverage" NAME="centralTendencies Coverage Results" MODIFIED="1512032318352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Statistics" />
     <SUITE FILE_PATH="coverage/notitia$gradient_2.coverage" NAME="gradient_2 Coverage Results" MODIFIED="1512333376542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gradient Descent" />
     <SUITE FILE_PATH="coverage/notitia$estimating_gradient.coverage" NAME="estimating_gradient Coverage Results" MODIFIED="1512329593515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gradient Descent" />
     <SUITE FILE_PATH="coverage/notitia$dispersion.coverage" NAME="dispersion Coverage Results" MODIFIED="1512035795756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Statistics" />
+    <SUITE FILE_PATH="coverage/notitia$complex_heuristic.coverage" NAME="complex_heuristic Coverage Results" MODIFIED="1512564476924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practise Problems/Set 1" />
     <SUITE FILE_PATH="coverage/notitia$vd_1.coverage" NAME="vd_4 Coverage Results" MODIFIED="1511813215991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Visualising Data" />
+    <SUITE FILE_PATH="coverage/notitia$simple_heuristic.coverage" NAME="simple_heuristic Coverage Results" MODIFIED="1512564471161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practise Problems/Set 1" />
     <SUITE FILE_PATH="coverage/notitia$stochastic_gd.coverage" NAME="stochastic_gd Coverage Results" MODIFIED="1512474737752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Gradient Descent" />
     <SUITE FILE_PATH="coverage/notitia$hypothesis.coverage" NAME="hypothesis Coverage Results" MODIFIED="1512234735710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hypothesis and Inference" />
   </component>
@@ -61,12 +69,48 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stochastic_gd.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="stochastic_gd.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gradient Descent/stochastic_gd.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="493">
               <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="simple_heuristic.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Practise Problems/Set 1/simple_heuristic.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="67" column="41" lean-forward="true" selection-start-line="65" selection-start-column="11" selection-end-line="67" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="complex_heuristic.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Practise Problems/Set 1/complex_heuristic.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="65" column="36" lean-forward="false" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom_heuristic.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Practise Problems/Set 1/custom_heuristic.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-669">
+              <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,6 +149,9 @@
         <option value="$PROJECT_DIR$/Gradient Descent/gradient.py" />
         <option value="$PROJECT_DIR$/Gradient Descent/gradient_2.py" />
         <option value="$PROJECT_DIR$/Gradient Descent/stochastic_gd.py" />
+        <option value="$PROJECT_DIR$/Practise Problems/Set 1/simple_heuristic.py" />
+        <option value="$PROJECT_DIR$/Practise Problems/Set 1/complex_heuristic.py" />
+        <option value="$PROJECT_DIR$/Practise Problems/Set 1/custom_heuristic.py" />
       </list>
     </option>
   </component>
@@ -137,7 +184,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -155,17 +202,33 @@
               <item name="notitia" type="462c0819:PsiDirectoryNode" />
               <item name="Linear Algebra" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="notitia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="notitia" type="462c0819:PsiDirectoryNode" />
+              <item name="Practise Problems" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="notitia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="notitia" type="462c0819:PsiDirectoryNode" />
+              <item name="Practise Problems" type="462c0819:PsiDirectoryNode" />
+              <item name="Set 1" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mahim\Desktop\notitia\Practise Problems\Set 1" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -179,39 +242,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.stochastic_gd">
-    <configuration name="estimating_gradient" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.custom_heuristic">
+    <configuration name="complex_heuristic" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Gradient Descent" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practise Problems/Set 1" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="notitia" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Gradient Descent/estimating_gradient.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practise Problems/Set 1/complex_heuristic.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="gradient" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="custom_heuristic" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Gradient Descent" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practise Problems/Set 1" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="notitia" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Gradient Descent/gradient.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practise Problems/Set 1/custom_heuristic.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -234,20 +297,20 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="hypothesis" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="simple_heuristic" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Hypothesis and Inference" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practise Problems/Set 1" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="notitia" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hypothesis and Inference/hypothesis.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practise Problems/Set 1/simple_heuristic.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -271,19 +334,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.hypothesis" />
-      <item index="1" class="java.lang.String" itemvalue="Python.estimating_gradient" />
-      <item index="2" class="java.lang.String" itemvalue="Python.gradient" />
-      <item index="3" class="java.lang.String" itemvalue="Python.gradient_2" />
-      <item index="4" class="java.lang.String" itemvalue="Python.stochastic_gd" />
+      <item index="0" class="java.lang.String" itemvalue="Python.gradient_2" />
+      <item index="1" class="java.lang.String" itemvalue="Python.stochastic_gd" />
+      <item index="2" class="java.lang.String" itemvalue="Python.simple_heuristic" />
+      <item index="3" class="java.lang.String" itemvalue="Python.complex_heuristic" />
+      <item index="4" class="java.lang.String" itemvalue="Python.custom_heuristic" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.stochastic_gd" />
-        <item index="1" class="java.lang.String" itemvalue="Python.gradient_2" />
-        <item index="2" class="java.lang.String" itemvalue="Python.gradient" />
-        <item index="3" class="java.lang.String" itemvalue="Python.estimating_gradient" />
-        <item index="4" class="java.lang.String" itemvalue="Python.hypothesis" />
+        <item index="0" class="java.lang.String" itemvalue="Python.custom_heuristic" />
+        <item index="1" class="java.lang.String" itemvalue="Python.complex_heuristic" />
+        <item index="2" class="java.lang.String" itemvalue="Python.simple_heuristic" />
+        <item index="3" class="java.lang.String" itemvalue="Python.stochastic_gd" />
+        <item index="4" class="java.lang.String" itemvalue="Python.gradient_2" />
       </list>
     </recent_temporary>
   </component>
@@ -306,13 +369,13 @@
   <component name="ToolWindowManager">
     <frame x="593" y="0" width="780" height="735" extended-state="1" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29057592" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29057592" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32488114" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2813505" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2813505" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -352,6 +415,32 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Gradient Descent/estimating_gradient.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gradient Descent/gradient.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="7" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gradient Descent/gradient_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="35" selection-start-column="3" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Gradient Descent/estimating_gradient.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
@@ -648,6 +737,36 @@
         <state relative-caret-position="493">
           <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practise Problems/Set 1/simple_heuristic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="67" column="41" lean-forward="true" selection-start-line="65" selection-start-column="11" selection-end-line="67" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practise Problems/Set 1/complex_heuristic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="65" column="36" lean-forward="false" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practise Problems/Set 1/custom_heuristic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-669">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
